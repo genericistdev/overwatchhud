@@ -91,7 +91,7 @@
 		"ypos"			"38"
 		"zpos"			"2"
 		"wide"			"100"
-		"tall"			"3"				
+		"tall"			"6"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

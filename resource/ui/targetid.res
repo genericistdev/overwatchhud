@@ -116,10 +116,10 @@
 		"tall"			"13"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"%targetdata%"
-		"textAlignment"		"west"
+		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}

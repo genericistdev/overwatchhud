@@ -6,10 +6,10 @@
 	{
 		"fieldName"		"ExpandableList"
 		"xpos"			"r0"
-		"ypos"			"10"
+		"ypos"			"r63"
 		"zpos"			"1001"
-		"wide"			"280"
-		"tall"			"f70"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -18,11 +18,11 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"8"
-		"ypos"		"20"
+		"xpos"		"c-400"
+		"ypos"		"12"
 		"zpos"		"99"
-		"wide"		"f0"
-		"tall"		"20"
+		"wide"		"130"
+		"tall"		"40"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderModeSelect"
 		"textAlignment"	"west"
@@ -30,17 +30,18 @@
 		"fgcolor_override"	"TanLight"
 		
 		"mouseinputenabled"	"0"
+		"wrap"				"1"
 	}
 
 	"playlist"
 	{
 	//	"ControlName"	"CTFPlaylistPanel"
 		"fieldName"		"playlist"
-		"xpos"			"8"
-		"ypos"			"50"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"100"
-		"wide"			"255"
-		"tall"			"365"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -49,11 +50,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayListDropShadow"
-		"xpos"			"8"
-		"ypos"			"50"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1000"
-		"wide"			"255"
-		"tall"			"298"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"InnerShadowBorder"
