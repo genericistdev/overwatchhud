@@ -132,7 +132,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"scout"
-		"xpos"				"c-175"
+		"xpos"				"c-180"
 		"ypos"				"r95"
 		"zpos"				"116"
 		"wide"				"32"
@@ -168,7 +168,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"soldier"
-		"xpos"				"c-140"
+		"xpos"				"c-148"
 		"ypos"				"r95"
 		"zpos"				"116"
 		"wide"				"32"
@@ -204,7 +204,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"pyro"
-		"xpos"				"c-110"
+		"xpos"				"c-115"
 		"ypos"				"r95"
 		"zpos"				"116"
 		"wide"				"32"
@@ -260,7 +260,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"demoman"
-		"xpos"				"c-40"
+		"xpos"				"c-45"
 		"ypos"				"r95"
 		"zpos"				"116"
 		"wide"				"32"
@@ -296,7 +296,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"heavyweapons"
-		"xpos"				"c-10"
+		"xpos"				"c-12"
 		"ypos"				"r95"
 		"zpos"				"116"
 		"wide"				"32"
@@ -387,7 +387,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"medic"
-		"xpos"				"c95"
+		"xpos"				"c90"
 		"ypos"				"r95"
 		"zpos"				"116"
 		"wide"				"32"
@@ -423,7 +423,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"sniper"
-		"xpos"				"c126"
+		"xpos"				"c122"
 		"ypos"				"r95"
 		"zpos"				"116"
 		"wide"				"32"
@@ -565,10 +565,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c-32"
+		"xpos"			"c-47"
 		"ypos"			"r54"
 		"zpos"			"6"
-		"wide"			"70"
+		"wide"			"100"
 		"tall"			"48"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -581,7 +581,7 @@
 		"font"			"DinBold16"
 		"paintbackground"	"0"
 		
-		"FgColor"					"owwhite"
+		"FgColor"		"owwhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
