@@ -16,15 +16,14 @@
 	{
 		"ControlName"			"CPlayListEntry"
 		"fieldName"				"CasualEntry"
-		"xpos"					"r165"
-		"ypos"					"5"
+		"xpos"					"r145"
+		"ypos"					"8"
 		"tall"					"50"
-		"wide"					"140"
+		"wide"					"136"
 		"proportionaltoparent"	"0"
 		"image_name"			"main_menu/main_menu_button_casual"
 		"button_token"			"#MMenu_PlayList_Casual_Button"
 		"button_command"		"play_casual"
-		"desc_token"			"#MMenu_PlayList_Casual_Desc"
 		"matchgroup"			"7" // k_eTFMatchGroup_Casual_12v12
 	}
 
@@ -35,12 +34,11 @@
 		"xpos"					"5"
 		"ypos"					"0"
 		"tall"					"50"
-		"wide"					"140"
+		"wide"					"135"
 		"proportionaltoparent"	"0"
 		"image_name"			"main_menu/main_menu_button_competitive"
 		"button_token"			"#MMenu_PlayList_Competitive_Button"
 		"button_command"		"play_competitive"
-		"desc_token"			"#MMenu_PlayList_Competitive_Desc"
 		"matchgroup"			"2" // k_eTFMatchGroup_Ladder_6v6
 
 		"pin_to_sibling"		"CasualEntry"
@@ -55,12 +53,11 @@
 		"xpos"					"5"
 		"ypos"					"0"
 		"tall"					"50"
-		"wide"					"140"
+		"wide"					"135"
 		"proportionaltoparent"	"0"
 		"image_name"			"main_menu/main_menu_button_mvm"
 		"button_token"			"#MMenu_PlayList_MvM_Button"
 		"button_command"		"play_mvm"
-		"desc_token"			"#MMenu_PlayList_MvM_Desc"
 		"matchgroup"			"1" // k_eTFMatchGroup_MvM_MannUp
 
 		"pin_to_sibling"		"CompetitiveEntry"
@@ -75,12 +72,11 @@
 		"xpos"					"5"
 		"ypos"					"0"
 		"tall"					"50"
-		"wide"					"140"
+		"wide"					"135"
 		"proportionaltoparent"	"0"
 		"image_name"			"main_menu/main_menu_button_community_server"
 		"button_token"			"#MMenu_PlayList_ServerBrowser_Button"
 		"button_command"		"play_community"
-		"desc_token"			"#MMenu_PlayList_ServerBrowser_Desc"
 
 
 		"pin_to_sibling"		"MvMEntry"
@@ -92,14 +88,39 @@
 	{
 		"ControlName"			"CPlayListEntry"
 		"fieldName"				"TrainingEntry"
-		"xpos"					"9999"
+		"xpos"					"5"
+		"ypos"					"0"
+		"tall"					"50"
+		"wide"					"135"
+		"proportionaltoparent"	"0"
+		
+		"image_name"			"main_menu/main_menu_button_training"
+		"button_token"			"#MMenu_PlayList_Training_Button"
+		"button_command"		"play_training"
+		
+		"pin_to_sibling"		"ServerBrowserEntry"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		
 	}
 
 	"CreateServerEntry"
 	{
 		"ControlName"			"CPlayListEntry"
 		"fieldName"				"CreateServerEntry"
-		"xpos"					"9999"
+		"xpos"					"5"
+		"ypos"					"0"
+		"tall"					"50"
+		"wide"					"135"
+		"proportionaltoparent"	"0"
+		
+		"image_name"		"main_menu/main_menu_button_custom_server"
+		"button_token"		"#MMenu_PlayList_CreateServer_Button"
+		"button_command"	"create_server"
+		
+		"pin_to_sibling"		"TrainingEntry"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"ScrollBar"

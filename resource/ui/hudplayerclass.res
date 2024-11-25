@@ -165,9 +165,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"				"replay/thumbnails/playerbgblue"
+		"image"			"replay/thumbnails/playerbgblue"
 		"alpha"			"180"		
 	}
+	
 	"classmodelpanelBGoverlap" // bottom
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -182,6 +183,8 @@
 		"scaleImage"	"1"
 		"image"				"replay/thumbnails/ow_playerbg_Npt2"	
 	}
+
+	
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
