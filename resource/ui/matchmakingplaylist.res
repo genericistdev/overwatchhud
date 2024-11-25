@@ -5,7 +5,7 @@
 		"ControlName"			"CEventPlayListEntry"
 		"fieldName"				"EventEntry"
 		"xpos"					"0"
-		"ypos"					"3"
+		"ypos"					"5"
 		"tall"					"60"
 		"wide"					"140"
 		"proportionaltoparent"	"1"
@@ -81,6 +81,7 @@
 		"button_token"			"#MMenu_PlayList_ServerBrowser_Button"
 		"button_command"		"play_community"
 		"desc_token"			"#MMenu_PlayList_ServerBrowser_Desc"
+
 
 		"pin_to_sibling"		"MvMEntry"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
