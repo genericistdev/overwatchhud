@@ -90,7 +90,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
-	"LoadoutLABEL"
+	"LoadoutLABEL" 
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"LoadoutLABEL"
@@ -101,8 +101,8 @@
 		"tall"				"45"
 		"autoResize"		"0"
 		"pinCorner"			"1"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"1"
 		"scaleImage"		"1"
 		"image"				"replay/thumbnails/ow_loadout"
@@ -263,20 +263,23 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"DinBold20"
+		"font"			"Oblique64"
 		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"center"
-		"xpos"			"25"
-		"ypos"			"40"
-		"zpos"			"1"
-		"wide"			"240"
-		"tall"			"25"
+		"textAlignment"	"west"
+		"xpos"			"78"
+		"ypos"			"12"
+		"zpos"			"-5"
+		"wide"			"200"
+		"tall"			"45"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"owDARKBLUE"
+		"fgcolor"		"owWHITE"
 	}
+	
+	
+	
 	"TauntCaratLabel"
 	{
 		"ControlName"		"CExLabel"
