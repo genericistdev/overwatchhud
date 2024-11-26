@@ -335,10 +335,10 @@
 		"fieldName"		"classmodelpanel"
 		
 		"xpos"			"c-135"
-		"ypos"			"35"
-		"zpos"			"-1"		
+		"ypos"			"0"
+		"zpos"			"-3"		
 		"wide"			"320"
-		"tall"			"390"
+		"tall"			"500"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -355,9 +355,9 @@
 			"angles_x" "0"
 			"angles_y" "170" // move character horizontally
 			"angles_z" "0"
-			"origin_x" "190" // lol i don't remember
+			"origin_x" "190" // lol i don't remember (its closer/further)
 			"origin_y" "5"	 // left right
-			"origin_z" "-44" // up down
+			"origin_z" "-42" // up down
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"

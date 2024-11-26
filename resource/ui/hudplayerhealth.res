@@ -16,7 +16,8 @@
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-	}	
+	}
+
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -170,6 +171,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 	}	
+
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"

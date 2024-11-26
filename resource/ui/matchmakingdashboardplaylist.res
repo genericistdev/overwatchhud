@@ -50,7 +50,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayListDropShadow"
-		"xpos"			"0"
+		"xpos"			"-1"
 		"ypos"			"0"
 		"zpos"			"1000"
 		"wide"			"f0"

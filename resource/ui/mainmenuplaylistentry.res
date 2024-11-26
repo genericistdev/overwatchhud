@@ -86,8 +86,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ModeButton"
-		"xpos"			"rs1-6"
-		"ypos"			"8"
+		"xpos"			"rs1-8"
+		"ypos"			"9"
 		"zpos"			"6"
 		"wide"			"122"
 		"tall"			"30"

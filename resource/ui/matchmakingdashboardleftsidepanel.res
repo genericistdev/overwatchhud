@@ -20,7 +20,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"TitleGradient"
-		"xpos"		"3"
+		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"f0"
 		"tall"		"60"

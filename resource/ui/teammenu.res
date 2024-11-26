@@ -118,7 +118,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam blue"
 		"team"				"3"		// team red
-		"font"			"DinBold18"
+		"font"			"Oblique26"
 		"border_default"	"TeamBlueButton"
 		"border_armed"		"TeamBlueButtonSel"
 		"defaultFgColor_override" 	"255 255 255 255"
@@ -147,7 +147,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam red"
 		"team"				"4"		// team red
-		"font"			"DinBold18"
+		"font"			"Oblique26"
 		"border_default"	"TeamRedButton"
 		"border_armed"		"TeamRedButtonSel"
 		"defaultFgColor_override" 	"255 255 255 255"
@@ -173,7 +173,7 @@
 		"labelText"		"Auto-join"	[$WIN32]
 		"textAlignment"	"center"
 		"command"		"jointeam auto"
-		"font"			"DinBold18"
+		"font"			"Oblique26"
 		"border_default"	"owbutton"
 		"border_armed"		"owbuttonsel"
 		"defaultFgColor_override" 	"255 255 255 255"
@@ -198,7 +198,7 @@
 		"labelText"		"SPECTATE"	[$WIN32]
 		"textAlignment"	"center"
 		"command"		"jointeam spectate"
-		"font"			"DinBold12"
+		"font"			"Oblique14"
 		"border_default"	"owbutton"
 		"border_armed"		"owbuttonsel"
 		"defaultFgColor_override" 	"255 255 255 255"
@@ -224,7 +224,7 @@
 		"labelText"		"CANCEL"
 		"textAlignment"	"center"
 		"command"		"cancel menu"
-		"font"			"DinBold12"
+		"font"			"Oblique14"
 		"border_default"	"OwButton"
 		"border_armed"		"OwButtonSel"
 		

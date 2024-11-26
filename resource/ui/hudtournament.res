@@ -1079,7 +1079,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"HudFontGiant"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"r54"
 		"wide"			"40"
 		"tall"			"40"
