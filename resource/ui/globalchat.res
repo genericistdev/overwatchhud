@@ -19,7 +19,7 @@
 		"proportionaltoparent"	"1"
 		"keyboardinputenabled"	"1"
 		"mouseinputenabled"		"1"
-		"border"		"QuickplayBorder"
+		"border"		""
 
 		"log_font_small"			"HudFontSmallest"
 		"log_font_medium"			"HudFontSmallest"
@@ -94,10 +94,10 @@
 	{
 		// "ControlName"	"TextEntry"
 		"fieldName"		"chatentry"
-		"xpos"					"1"
-		"ypos"					"rs1+19"
+		"xpos"					"0"
+		"ypos"					"rs1+24"
 		"zpos"			"1"
-		"wide"			"f2"
+		"wide"			"f0"
 		"tall"			"13"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -124,7 +124,7 @@
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
 		"RoundedCorners"	"0"
-		"border"		"QuickplayBorder"
+		"border"		""
 
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"0"

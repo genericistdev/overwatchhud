@@ -220,7 +220,7 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"c120"
+		"xpos"			"r308"
 		"ypos"			"25"
 		"zpos"			"-1"
 		"wide"			"320"
@@ -238,7 +238,7 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"RankBG"
-		"xpos"				"c210"
+		"xpos"				"r217"
 		"ypos"				"45"
 		"zpos"				"-2"
 		"wide"				"150"
@@ -1118,6 +1118,7 @@
 			}		
 		}
 	}
+
 	"GeneralStoreButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1371,7 +1372,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
 		"xpos"			"r50"
-		"ypos"			"158"
+		"ypos"			"168"
 		"zpos"			"10"
 		"wide"			"24"
 		"tall"			"24"
@@ -1473,8 +1474,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"r50"
-		"ypos"			"48"
+		"xpos"			"r51"
+		"ypos"			"108"
 		"zpos"			"1"
 		"wide"			"24"
 		"tall"			"24"
@@ -1542,6 +1543,62 @@
 		}
 	}
 
+	"RefreshHUDButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RefreshHUDButton"
+		"xpos"			"r52"
+		"ypos"			"122"
+		"zpos"			"1"
+		"wide"			"24"
+		"tall"			"45"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		
+		"navUp"			"Notifications_Panel"
+		"navLeft"		"SettingsButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"0"
+			"labelText"		"e"
+			"use_proportional_insets" "1"
+			"font"			"Entypo36"
+			"command"		"engine vgui_cache_res_files 0;hud_reloadscheme;toggle mat_aaquality;vgui_cache_res_files 1"
+			"textAlignment"	"north"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"vo/null.mp3"
+			"actionsignallevel" "2"
+			"proportionaltoparent"	"1"
+				
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"drawcolor"		"240 240 240 255"
+			"armedcolor"	"255 255 255 255"
+		}
+	}
+
+
+
 	"StreamListPanel"
 	{
 		"ControlName"	"CTFStreamListPanel"
@@ -1565,7 +1622,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
 		"xpos"			"r50"
-		"ypos"			"108"
+		"ypos"			"78"
 		"zpos"			"1"
 		"wide"			"24"
 		"tall"			"24"
@@ -1690,7 +1747,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
 		"xpos"			"r50"
-		"ypos"			"78"
+		"ypos"			"48"
 		"zpos"			"1"
 		"wide"			"24"
 		"tall"			"24"
@@ -1756,8 +1813,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"c5"
-		"ypos"			"65"
+		"xpos"			"c50"
+		"ypos"			"75"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"350"
@@ -2177,8 +2234,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c0"
-		"ypos"			"102"
+		"xpos"			"r278"
+		"ypos"			"90"
 		"zpos"			"10"
 		"wide"			"210"
 		"tall"			"80"
@@ -3484,6 +3541,7 @@
 			}
 		}					
 	}			
+	
 	"SettingsButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -3687,7 +3745,8 @@
 				"image"			"glyph_quit"
 			}
 		}		
-	}		
+	}
+
 	"QuitButton" 
 	{
 		"ControlName"	"EditablePanel"

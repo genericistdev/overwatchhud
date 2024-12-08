@@ -86,11 +86,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ModeButton"
-		"xpos"			"rs1-8"
-		"ypos"			"9"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"6"
-		"wide"			"122"
-		"tall"			"30"
+		"wide"			"135"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%button_token%"
@@ -106,14 +106,14 @@
 		"actionsignallevel"	"2"
 
 		"border_default"	"Blank"
-		"border_armed"		"Blank"
+		"border_armed"		"255 255 255 255"
 		"paintbackground"	"0"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"255 255 255 200"
+		"defaultFgColor_override"	"0 0 0 255"
+		"armedFgColor_override"		"255 255 255 255"
 		"depressedFgColor_override" "TanLight"
 	}	
 

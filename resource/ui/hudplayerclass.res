@@ -18,6 +18,24 @@
 												// outline: on or off
 		"fgcolor"		"255 255 255 120"
 	}
+	
+	"PlayerName"
+	{
+		"ControlName"	"CMiniPvPRankPanel"
+		"wide"			"400"
+		"tall"			"160"
+		"xpos"			"-104"
+		"xpos_minmode"	"9999"
+		"ypos"			"r63"
+
+		"matchgroup"	"MatchGroup_Ladder_6v6"
+
+		"show_model"	"0"
+		"show_type"		"0"
+		"show_name"		"1"
+		"wrap"			"0"
+	}
+	
 	"CrosshairSecond"
 	{
 		"ControlName"	"CExLabel"
@@ -287,7 +305,7 @@
 				"angles_x"		"-17"
 				"angles_y"		"160"
 				"angles_z"		"0"
-				"origin_x"		"40"
+				"origin_x"		"38"
 				"origin_y"		"2"
 				"origin_z"		"-72"
 			}
@@ -299,7 +317,7 @@
 				"angles_z"		"0"
 				"origin_x"		"53"
 				"origin_y"		"0"
-				"origin_z"		"-83"
+				"origin_z"		"-85"
 			}
 			"Soldier"
 			{
@@ -309,7 +327,7 @@
 				"angles_z"		"0"
 				"origin_x"		"60"
 				"origin_y"		"-4"
-				"origin_z"		"-76"
+				"origin_z"		"-78"
 			}
 			"Demoman"
 			{
@@ -327,7 +345,7 @@
 				"angles_x"		"-5"
 				"angles_y"		"160"
 				"angles_z"		"0"
-				"origin_x"		"55"
+				"origin_x"		"50"
 				"origin_y"		"-2"
 				"origin_z"		"-85"
 			}
@@ -337,9 +355,9 @@
 				"angles_x"		"-7"
 				"angles_y"		"165"
 				"angles_z"		"0"
-				"origin_x"		"40"
+				"origin_x"		"35"
 				"origin_y"		"3"
-				"origin_z"		"-87"
+				"origin_z"		"-89"
 			}
 			"Pyro"
 			{
@@ -349,17 +367,17 @@
 				"angles_z"		"0"
 				"origin_x"		"48"
 				"origin_y"		"-3"
-				"origin_z"		"-77"
+				"origin_z"		"-79"
 			}
 			"Spy"
 			{
 				"fov"			"17"
 				"angles_x"		"-5"
-				"angles_y"		"160"
+				"angles_y"		"163"
 				"angles_z"		"0"
-				"origin_x"		"52"
+				"origin_x"		"48"
 				"origin_y"		"-1"
-				"origin_z"		"-82"
+				"origin_z"		"-86"
 			}
 			"Engineer"
 			{

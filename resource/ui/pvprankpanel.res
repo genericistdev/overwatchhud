@@ -194,13 +194,7 @@
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
 
-		if_mini
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"tall"			"35"
-			"wide"			"505"
-		}
+
 
 		"NameLabel"
 		{
@@ -221,7 +215,8 @@
 
 			if_mini
 			{
-				"visible"	"0"
+				"visible"	"1"
+				"tall"		"30"
 			}
 		}
 
@@ -241,6 +236,14 @@
 			"textAlignment"	"north-west"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
+			
+			if_mini
+			{
+				"visible"	"0"
+				"enabled"	"0"
+				"labelText"	""
+			}
+			
 		}
 
 		"DescLine2"
@@ -259,6 +262,14 @@
 			"textAlignment"	"north-west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
+			
+			if_mini
+			{
+				"visible"		"0"
+				"enabled"		"0"
+				
+			}			
+			
 		}
 
 		"StatsContainer"
@@ -273,9 +284,7 @@
 
 			if_mini
 			{
-				"xpos"			"rs1-10"
-				"ypos"			"0"
-				"wide"			"p0.85"
+				"visible"		"0"
 			}
 
 			"XPBar"
@@ -379,6 +388,12 @@
 						"border"		"noborder"
 					}
 				}
+				
+				if_mini
+				{
+					"visible"	"0"
+				}
+			
 			}
 
 			"Stats"
@@ -541,6 +556,13 @@
 					"labelText"		"%stat_score%"
 					"proportionaltoparent"	"1"
 				}
+				
+				if_mini
+				{
+					"visible"	"0"
+				}
+				
+				
 			}
 		}
 	}

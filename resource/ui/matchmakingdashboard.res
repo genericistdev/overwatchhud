@@ -6,16 +6,19 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"cs-0.5"
-		"ypos"					"-5"
+		"ypos"					"0"
 		"zpos"					"10001"
 		"wide"					"f0"
-		"tall"					"35"
+		"tall"					"40"
 		"keyboardinputenabled"	"0"
 
 		"collapsed_height"	"0"
 		"expanded_height"	"35"
 		"resize_time"		"0.2"
 	}
+
+
+
 
 	"TopBar"
 	{
@@ -131,26 +134,26 @@
 			}
 		}
 
-		"PartySlot0"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot0"
-			"xpos"			"640"
-			"ypos"			"5"
-			"zpos"			"100"
-			"wide"			"28"
-			"tall"			"28"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"0"
-			"enabled"		"0"
-			"tabPosition"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
-			"party_slot"	"0"
-		}
+	"PartySlot0"
+	{
+		"ControlName"	"CDashboardPartyMember"
+		"fieldName"		"PartySlot0"
+		"xpos"			"640"
+		"ypos"			"15"
+		"zpos"			"100"
+		"wide"			"28"
+		"tall"			"28"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+		"keyboardinputenabled"	"0"
+			
+		"party_slot"	"0"
+	}
 
 		"PartySlot1"
 		{
@@ -169,6 +172,7 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
+			"border"		""
 
 			"party_slot"	"1"
 		}
@@ -590,12 +594,12 @@
 			"xpos"			"rs1"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"30"
-			"tall"			"30"
+			"wide"			"624"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
@@ -610,8 +614,6 @@
 			"actionsignallevel"	"2"
 			"RoundedCorners"	"0"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"armedBgColor_override"		"192 28 0 150"
 			"defaultBgColor_override"	"192 28 0 50"
@@ -647,8 +649,8 @@
 			"xpos"			"rs1"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"70"
-			"tall"			"30"
+			"wide"			"624"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"

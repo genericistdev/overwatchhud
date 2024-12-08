@@ -89,7 +89,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
-			"xpos"			"0"
+			"xpos"			"20"
 			"ypos"			"32"
 			"zpos"			"5"
 			"wide"			"0"

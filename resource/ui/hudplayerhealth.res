@@ -88,9 +88,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"60"
+		"xpos"			"58"
 		"xpos_minmode"	"c-180"
-		"ypos"			"r68"	
+		"ypos"			"r70"	
 		"ypos_minmode"	"r150"
 		"zpos"			"5"
 		"wide"			"100"
@@ -99,7 +99,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"DinBold24"
+		"font"			"DinBlack28"
 		"font_minmode"	"DinBold52"
 		"fgcolor"		"owFULLWHITE"
 	}	
@@ -107,10 +107,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue2"
-		"xpos"			"60"
+		"xpos"			"58"
 		"xpos_minmode"	"c-180"
-		"ypos"			"r68"	
-		"ypos_minmode"	"r150"		
+		"ypos"			"r70"	
+		"ypos_minmode"	"r150"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"38"
@@ -118,7 +118,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"DinBoldBlur24"
+		"font"			"DinBoldBlur28"
 		"font_minmode"	"DinBoldBlur52"
 		"fgcolor"		"255 255 255 125"
 	}	
@@ -150,16 +150,58 @@
 		"fgcolor"		"owteal"
 		"xpos"			"115"
 		"xpos_minmode"	"9999"
-		"ypos"			"r74"
+		"ypos"			"r77"
 		"ypos_minmode"	"r155"
 		"labelText"		"|"
 		"zpos"			"7"
 		"wide"			"40"
-		"tall"			"50"
+		"tall"			"58"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"		
 	}	
+	
+	"PlayerNameUnderline" // name underline
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"NameUnderline"
+		"font"			"DinBold26"
+		"fgcolor"		"owteal"
+		"xpos"			"87"
+		"xpos_minmode"	"9999"
+		"ypos"			"r60"
+		"ypos_minmode"	"r155"
+		"labelText"		"_________"
+		"zpos"			"7"
+		"wide"			"180"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"wrap"			"1"
+	}
+	
+	"PlayerNameBackground" // name underline
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerNameBackground"
+		"font"			"DinBold18"
+		"fgcolor"		"owteal"
+		"bgcolor_override"	"0 0 0 55"
+		"xpos"			"87"
+		"xpos_minmode"	"9999"
+		"ypos"			"r38"
+		"ypos_minmode"	"r155"
+		"labelText"		""
+		"zpos"			"0"
+		"wide"			"104"
+		"tall"			"13"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"wrap"			"1"
+	}
+	
 	"StatusFix" // Credit to Rawrsor for providing this
 	{
 		"ControlName"	"EditablePanel"
