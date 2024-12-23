@@ -1,0 +1,56 @@
+BUGS:
+
+- MOTD Doesn't work in menus (only after leaving match)
+
+- Class Select shows only red side team (blue doesn't exist afaik)
+
+- Class select doesn't allow cancel when first joining
+
+- Ubercharge percentage in targetID not showing
+
+- Overtime label getting cut off
+
+
+
+
+FIXES:
+
+- Replace main menu pictures with font/words buttons
+
+- Custom main menu play match bottom banner to reflect OW2 colors
+
+- Bottom corners of screen accents in-game flair
+
+- Vaccinator redo
+
+
+-Fully Redo Class Gallery Menus
+--> Positioning and icons
+--> Redo UI removing tip of the hats
+
+
+-Redo all charge meters
+--> Square Charge meters
+---> Individual Charge meter Icons (Kill Icons Recycle?)
+--> Crits Positioning
+--> Stickies above similar to junkrat
+
+-Statistics button in main menu
+
+-Loadout and stats button movement
+--> Button on profile name opens to stats page
+---> Also shows account level and rank below stats
+https://www.reddit.com/r/tf2/comments/10dyn1i/i_present_to_you_all_the_uncompressed_class/
+
+
+-"Join Voice Chat" Button Toggle on Class Select Screen
+
+
+
+BONUS:
+- Alternate in-game HUD color options/menu
+- Secret Easter Egg
+- Min-mode Edits
+- Health Bar (?)
+- 4:3 full support
+- Potato.tf OPERATION Name at top (In Orange)

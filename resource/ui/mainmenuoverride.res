@@ -161,89 +161,17 @@
 		}
 	}
 	
-	"CycleRankTypeButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"r77"
-		"ypos"			"45"
-		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"textinsetx"	"25"
-		"labelText"		""
-		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
-		"command"		"open_rank_type_menu"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"vo/null.mp3"
-		"actionsignallevel" "1"
-		"proportionaltoparent"	"1"
-				
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"0"
-		"paintborder"		"0"
-		"image_drawcolor"	"OwWhite"
-		"image_armedcolor"	"OwYellow"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"f2"
-			"tall"			"f2"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_options"
-
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-			"keyboardinputenabled" "0"
-		}		
-	}
-
-	"RankPanel"
-	{
-		"ControlName"	"CPvPRankPanel"
-		"fieldName"		"RankPanel"
-		"xpos"			"c120"
-		"ypos"			"25"
-		"zpos"			"-1"
-		"wide"			"320"
-		"tall"			"100"
-		"visible"		"0"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
-
-		"matchgroup"	"MatchGroup_Casual_12v12"
-
-		"show_model"	"0"
-		"show_type"		"1"
-	}
+	
 	"RankBG"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"RankBG"
-		"xpos"				"c210"
-		"ypos"				"45"
+		"xpos"				"r198"
+		"ypos"				"24"
 		"zpos"				"-2"
-		"wide"				"150"
-		"tall"				"30"
-		"visible"			"1"
+		"wide"				"120"
+		"tall"				"26"
+		"visible"			"0"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/menu/rankpanel"
 	}
@@ -427,7 +355,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TF2LogoW"
 		"xpos"			"18"
-		"ypos"			"48"
+		"ypos"			"24"
 		"zpos"			"-99"
 		"wide"			"300"
 		"tall"			"25"
@@ -1118,6 +1046,7 @@
 			}		
 		}
 	}
+
 	"GeneralStoreButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1370,8 +1299,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"r50"
-		"ypos"			"158"
+		"xpos"			"r47"
+		"ypos"			"168"
 		"zpos"			"10"
 		"wide"			"24"
 		"tall"			"24"
@@ -1473,8 +1402,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"r50"
-		"ypos"			"48"
+		"xpos"			"r48"
+		"ypos"			"108"
 		"zpos"			"1"
 		"wide"			"24"
 		"tall"			"24"
@@ -1542,6 +1471,62 @@
 		}
 	}
 
+	"RefreshHUDButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RefreshHUDButton"
+		"xpos"			"r48"
+		"ypos"			"122"
+		"zpos"			"1"
+		"wide"			"24"
+		"tall"			"45"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		
+		"navUp"			"Notifications_Panel"
+		"navLeft"		"SettingsButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"0"
+			"labelText"		"e"
+			"use_proportional_insets" "1"
+			"font"			"Entypo36"
+			"command"		"engine vgui_cache_res_files 0;hud_reloadscheme;toggle mat_aaquality;vgui_cache_res_files 1"
+			"textAlignment"	"north"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"vo/null.mp3"
+			"actionsignallevel" "2"
+			"proportionaltoparent"	"1"
+				
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"drawcolor"		"240 240 240 255"
+			"armedcolor"	"255 255 255 255"
+		}
+	}
+
+
+
 	"StreamListPanel"
 	{
 		"ControlName"	"CTFStreamListPanel"
@@ -1564,8 +1549,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"r50"
-		"ypos"			"108"
+		"xpos"			"r47"
+		"ypos"			"78"
 		"zpos"			"1"
 		"wide"			"24"
 		"tall"			"24"
@@ -1689,8 +1674,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"r50"
-		"ypos"			"78"
+		"xpos"			"r47"
+		"ypos"			"48"
 		"zpos"			"1"
 		"wide"			"24"
 		"tall"			"24"
@@ -1756,8 +1741,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"c5"
-		"ypos"			"65"
+		"xpos"			"c50"
+		"ypos"			"75"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"350"
@@ -2177,8 +2162,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c0"
-		"ypos"			"102"
+		"xpos"			"r278"
+		"ypos"			"90"
 		"zpos"			"10"
 		"wide"			"210"
 		"tall"			"80"
@@ -2513,7 +2498,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"INVENTORYBUTTON"
 		"xpos"			"c-55"
-		"ypos"			"210"
+		"ypos"			"207"
 		"zpos"			"25"
 		"wide"			"150"
 		"tall"			"20"
@@ -2848,7 +2833,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
 		"xpos"			"c-5"
-		"ypos"			"315"
+		"ypos"			"335"
 		"zpos"			"12"
 		"wide"			"26"
 		"tall"			"26"
@@ -2910,7 +2895,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
 		"xpos"			"c-55"
-		"ypos"			"315"
+		"ypos"			"335"
 		"zpos"			"12"
 		"wide"			"26"
 		"tall"			"26"
@@ -2971,7 +2956,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
 		"xpos"			"c-30"
-		"ypos"			"315"
+		"ypos"			"335"
 		"zpos"			"12"
 		"wide"			"26"
 		"tall"			"26"
@@ -3484,6 +3469,7 @@
 			}
 		}					
 	}			
+	
 	"SettingsButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -3625,7 +3611,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"AdvancedOptionsINGAME"
 		"xpos"			"c-55"
-		"ypos"			"260"
+		"ypos"			"251"
 		"zpos"			"25"
 		"wide"			"150"
 		"tall"			"20"
@@ -3687,7 +3673,8 @@
 				"image"			"glyph_quit"
 			}
 		}		
-	}		
+	}
+
 	"QuitButton" 
 	{
 		"ControlName"	"EditablePanel"
@@ -3831,7 +3818,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DisconnectButton"
 		"xpos"			"c-55"
-		"ypos"			"285"
+		"ypos"			"273"
 		"zpos"			"25"
 		"wide"			"150"
 		"tall"			"20"
@@ -3899,7 +3886,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SettingsButtonINGAME"
 		"xpos"			"c-55"
-		"ypos"			"235"
+		"ypos"			"229"
 		"zpos"			"25"
 		"wide"			"150"
 		"tall"			"20"
@@ -3959,6 +3946,60 @@
 				"scaleImage"	"1"
 				"image"			"glyph_quit"
 			}
+		}			
+	}
+
+	"QuitButtonINGAME" //ONLY IN GAME
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"QuitButtonINGAME"
+		"xpos"			"c-55"
+		"ypos"			"310"
+		"zpos"			"25"
+		"wide"			"150"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"OnlyInGame"	"1"
+	
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"150"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"10"
+			"use_proportional_insets" "1"
+			"label"			"EXIT TO DESKTOP"
+			"Command"		"engine quit"
+			"font"			"DinBold12"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	"OWWhiteButton"
+			"border_armed"		"OWButton"
+			"paintbackground"	"0"
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"defaultFgColor_override" "owFULLBLACK"
+			"armedFgColor_override" "owWHITE"
+			"depressedFgColor_override" "owWHITE"
+			
 		}			
 	}	
 	"BackToReplaysButton"

@@ -40,12 +40,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"wingtop"
-		"xpos"			"22"
+		"xpos"			"62f"
 		"xpos_minmode"	"9999"
-		"ypos"			"r75"
+		"ypos"			"r67"
 		"ypos_minmode"	"9999"
 		"zpos"			"1"
-		"wide"			"180"
+		"wide"			"140"
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
@@ -56,12 +56,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"wingbottom"
-		"xpos"			"22"
+		"xpos"			"62"
 		"xpos_minmode"	"9999"
-		"ypos"			"r30"
+		"ypos"			"r37"
 		"ypos_minmode"	"9999"
 		"zpos"			"1"
-		"wide"			"180"
+		"wide"			"140"
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
@@ -146,6 +146,26 @@
 		"textAlignment"	"west"		
 		"labelText"		"%AmmoInReserve%"
 	}			
+	
+		
+	"AmmoSlash"
+	{
+		"ControlName" 	"ImagePanel"
+		"fieldName"		"AmmoSlash"
+		"xpos"			"156"
+		"xpos_minmode"	"9999"
+		"ypos"			"r56"
+		"wide"			"1"
+		"tall"			"16"
+		"fillcolor"		"owteal"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+	
+	
 	"AmmoInReserveShadow" // normal slash
 	{
 		"ControlName"	"CExLabel"
@@ -157,13 +177,14 @@
 		"xpos_minmode"	"c120"
 		"ypos"			"r74"
 		"ypos_minmode"	"99999"
-		"labelText"		"|"
+		"labelText"		""
 		"zpos"			"7"
 		"wide"			"40"
 		"tall"			"50"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"textAlignment"	"center"
+	
 	}
 	"AmmoInClipShadow" //slash shadow
 	{
@@ -176,14 +197,15 @@
 		"xpos_minmode"	"c120"
 		"ypos"			"r74"
 		"ypos_minmode"	"9999"
-		"labelText"		"|"
+		"labelText"		""
 		"zpos"			"7"
 		"wide"			"40"
 		"tall"			"50"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"textAlignment"	"center"		
 	}
+	
 	"AmmoNoClip"		// invisible
 	{
 		"ControlName"	"CExLabel"

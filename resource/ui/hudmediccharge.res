@@ -39,6 +39,7 @@
 		"font_minmode"	"oblique48"
 		"fgcolor_override"	"owFULLWHITE"
 	}
+	
 	"ChargeLabelShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -50,8 +51,8 @@
 		"tall"		"125"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
@@ -61,6 +62,7 @@
 		"font_minmode"	"obliqueblur48"
 		"fgcolor_override"	"owblack"
 	}
+
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -87,7 +89,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Oblique9"
-		"xpos"			"5"
+		"xpos"			"2"
 		"ypos"			"38"
 		"zpos"			"2"
 		"wide"			"100"
@@ -193,6 +195,7 @@
 		"scaleImage"	"1"	
 	}	
 	
+
 	"ResistIcon"
 	{
 		"ControlName"	"ImagePanel"

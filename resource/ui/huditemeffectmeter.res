@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r210"
-		"ypos"			"r44"
+		"xpos"			"0"
+		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
 		"MeterFG"		"owwhite"
@@ -36,16 +36,16 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"-175"
-		"ypos"					"0"
+		"xpos"					"r217"
+		"ypos"					"r35"
 		"zpos"					"2"
-		"wide"					"210"
+		"wide"					"50"
 		"tall"					"10"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
-		"textAlignment"			"east"
+		"textAlignment"			"center"
 		"font"					"DinBold8"
 		"fgcolor_override"		"owwhite"
 	}
@@ -55,11 +55,11 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"40"
-		"ypos"					"4"
+		"xpos"					"r207"
+		"ypos"					"r65"
 		"zpos"					"2"
-		"wide"					"50"
-		"tall"					"3"				
+		"wide"					"28"
+		"tall"					"30"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -69,5 +69,7 @@
 		"brighttext"			"0"
 		"bgcolor_override"		"0 0 0 100"
 		"fgcolor_override"		"owwhite"
-	}					
+	}
+
+				
 }

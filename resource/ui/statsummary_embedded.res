@@ -7,11 +7,26 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"f0"
-		"tall"		"480"
+		"tall"		"f0"
 		"visible"	"0"
 		"enabled"	"1"
 		"bgcolor_override"	"0 0 0 0"
 	}
+
+	"TopBackground"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"TopBackground"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"f0"
+		"zpos"		"1"
+		"tall"		"77"
+		"visible"	"1"
+		"enabled"	"1"
+		"bgcolor_override"	"59 72 109 255"
+	}
+
 	"MainBackground"
 	{
 		"ControlName"		"ImagePanel"
@@ -86,7 +101,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"	"StatData"
 		"xpos"		"0"
-		"ypos"		"-130"
+		"ypos"		"-80"
 		"zpos"		"1"
 		"wide"		"f0"
 		"tall"		"480"
@@ -205,6 +220,9 @@
 				"maxchars"		"-1"
 				"NumericInputOnly"		"0"
 				"unicode"		"0"
+				"fgcolor_override" "0 0 0 255"
+				"bgcolor_override"		"255 255 255 145"
+
 			}
 			"BarChartComboB"
 			{
@@ -225,6 +243,9 @@
 				"maxchars"		"-1"
 				"NumericInputOnly"		"0"
 				"unicode"		"0"
+				"fgcolor_override" "0 0 0 255"
+				"bgcolor_override"		"255 255 255 145"
+
 			}
 			"ClassCombo"
 			{
@@ -245,6 +266,8 @@
 				"maxchars"		"-1"
 				"NumericInputOnly"		"0"
 				"unicode"		"0"
+				"fgcolor_override" "0 0 0 255"
+				"bgcolor_override"		"255 255 255 145"
 			}
 		}
 		"AveragesBG"
@@ -265,8 +288,8 @@
 			"tall_lodef"			"633"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"border"		"TFThinLineBorder"
 		}
 		"AveragesLabel"
@@ -291,6 +314,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor_override" "0 0 0 255"
+
 		}
 		"ClassBarBG1A"
 		{
@@ -1646,10 +1671,10 @@
 			"tall"			"260"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"visible_hidef"		"0"
 			"visible_lodef"		"0"
-			"enabled"		"1"
+			"enabled"		"0"
 			"enabled_hidef"		"0"			
 			"enabled_lodef"		"0"			
 			"border"		"TFThinLineBorder"
@@ -2440,11 +2465,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TipImage"
-		"xpos"			"c-285"
-		"ypos"			"270"
+		"xpos"			"20"
+		"ypos"			"25"
 		"zpos"			"12"
-		"wide"			"35"
-		"tall"			"35"
+		"wide"			"60"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
@@ -2460,10 +2485,10 @@
 		"textAlignment"			"west"
 		"textAlignment_hidef"		"north-west"
 		"textAlignment_lodef"		"north-west"
-		"xpos"			"c-245"
+		"xpos"			"c-205"
 		"xpos_lodef"			"c-180"
 		"xpos_hidef"			"c-180"
-		"ypos"			"263"
+		"ypos"			"35"
 		"ypos_hidef"			"262"
 		"ypos_lodef"			"262"
 		"zpos"			"12"
@@ -2483,9 +2508,9 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"		"NextTipButton"
-		"xpos"			"c-248"
-		"ypos"			"310"
-		"zpos"			"6"
+		"xpos"			"27"
+		"ypos"			"82"
+		"zpos"			"12"
 		"wide"			"90"
 		"tall"			"15"
 		"autoResize"	"0"
@@ -2503,7 +2528,7 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"		"ResetStatsButton"
-		"xpos"			"c130"
+		"xpos"			"9999"
 		"ypos"			"270"
 		"zpos"			"6"
 		"wide"			"150"

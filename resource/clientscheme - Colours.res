@@ -16,13 +16,12 @@ Scheme
 		"owBRIGHTBLUE"			"26  255 254 255"
 		"owTEAMRED"				"255 23  43  255"
 		"owTEAMBLU"				"0   216 255 255"
-		"owTEAL"				"64  251 255 255"
+		"owTEAL"				"64  251 255 255" // "64  251 255 255"
 		"owDARKBLUE"			"66  84  118 255"
 		"owBLUEBUTTON"			"34  158 235 165"
 		"owPURPLE"				"143 1   203 255"
 		"owFULLBLACK"			"0   0   0   255"
-		
-		
+		"QuestMap_BGImages"		"255 255 255 70" //fixes contracker colors being fully
 		
 		// base colors
 		"Orange"			"254 197 50  255"

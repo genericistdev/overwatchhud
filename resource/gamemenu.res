@@ -52,11 +52,12 @@
 	}
 	"DisconnectButton"
 	{
-		"label" "EXIT" 
+		"label" "LEAVE GAME" 
 		"command" "engine disconnect"
 		"subimage" "replay/thumbnails/menu/flare"
 		"OnlyInGame" "1"
 	}
+	
 	"SettingsButtonINGAME"
 	{
 		"label" "SETTINGS" 
@@ -96,6 +97,12 @@
 		"OnlyInGame"	"1"
 		"subimage"		"glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
+	}
+	"QuitButtonINGAME"
+	{
+		"label" "EXIT TO DESKTOP" 
+		"command" "engine quit"
+		"OnlyInGame" "1"
 	}
 	
 // ONLY AT MENU

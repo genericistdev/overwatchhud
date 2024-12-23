@@ -194,13 +194,7 @@
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
 
-		if_mini
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"tall"			"35"
-			"wide"			"505"
-		}
+
 
 		"NameLabel"
 		{
@@ -208,20 +202,22 @@
 			"fieldName"		"NameLabel"
 			"xpos"			"65"
 			"ypos"			"5"
-			"wide"			"f0"
+			"wide"			"85"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"DinBold12"
 			"fgcolor_override"	"TanLight"
+			"wrap"			"0"
 			"textAlignment"	"north-west"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
-				"visible"	"0"
+				"visible"	"1"
+				"tall"		"30"
 			}
 		}
 
@@ -241,6 +237,14 @@
 			"textAlignment"	"north-west"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
+			
+			if_mini
+			{
+				"visible"	"0"
+				"enabled"	"0"
+				"labelText"	""
+			}
+			
 		}
 
 		"DescLine2"
@@ -259,6 +263,14 @@
 			"textAlignment"	"north-west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
+			
+			if_mini
+			{
+				"visible"		"0"
+				"enabled"		"0"
+				
+			}			
+			
 		}
 
 		"StatsContainer"
@@ -267,17 +279,15 @@
 			"fieldName"		"StatsContainer"
 			"xpos"			"60"
 			"ypos"			"-18"
-			"wide"			"120"
+			"wide"			"99"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
-				"xpos"			"rs1-10"
-				"ypos"			"0"
-				"wide"			"p0.85"
+				"visible"		"0"
 			}
-
+	
 			"XPBar"
 			{
 				"Controlname"	"EditablePanel"
@@ -379,6 +389,12 @@
 						"border"		"noborder"
 					}
 				}
+				
+				if_mini
+				{
+					"visible"	"0"
+				}
+			
 			}
 
 			"Stats"
@@ -541,6 +557,13 @@
 					"labelText"		"%stat_score%"
 					"proportionaltoparent"	"1"
 				}
+				
+				if_mini
+				{
+					"visible"	"0"
+				}
+				
+				
 			}
 		}
 	}

@@ -277,10 +277,10 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"c-80"
-				"ypos"			"27"
-				"tall"			"10"
-				"font"			"HudFontSmall"
+				"xpos"			"c-83"
+				"ypos"			"24"
+				"tall"			"15"
+				"font"			"Oblique16"
 				"bgcolor_override"	"0 0 0 0"
 			}
 		}	

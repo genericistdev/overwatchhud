@@ -3,7 +3,7 @@
 	CMainTargetID
 	{
 		"fieldName" 	"CMainTargetID"
-		"visible" 	"0"
+		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c0"
 		"ypos"		"280"
@@ -16,7 +16,7 @@
 	CSpectatorTargetID
 	{
 		"fieldName" 	"CSpectatorTargetID"
-		"visible" 	"0"
+		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"330"
@@ -31,7 +31,7 @@
 	CSecondaryTargetID
 	{
 		"fieldName" 	"CSecondaryTargetID"
-		"visible" 	"0"
+		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"380"
@@ -118,11 +118,10 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r175"	
-		"ypos"			"r45"	
-		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"tall"			"8"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"	
 		"MeterFG"		"owwhite"
 		"MeterBG"		"0 0 0 100"
 	}	
@@ -130,8 +129,8 @@
 	HudBowCharge // unused
 	{
 		"fieldName"		"HudBowCharge"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"xpos"			"r80"	
 		"ypos"			"9999"
 		"zpos"			"1"			// draw in front of ammo
@@ -223,9 +222,9 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"100"
+		"xpos"					"95"
 		"xpos_minmode"			"c-150"
-		"ypos"					"r40"
+		"ypos"					"r75"
 		"ypos_minmode"			"r180"
 		"wide"					"116"
 		"tall"  				"180"
@@ -269,7 +268,21 @@
 		
 		"PaintBackgroundType"	"2"
 	}
-	
+
+    "BuildingPin" //i stole this from budhud
+    {
+        "ControlName"       "Label"
+        "fieldName"         "BuildingPin"
+        "xpos"              "0"
+        "ypos"              "60"
+        "zpos"              "0"
+        "wide"              "100"
+        "tall"              "0"
+        "visible"           "1"
+        "enabled"           "1"
+        "bgcolor_override"  "0 0 0 0"
+    }
+
 	BuildingStatus_Engineer
 	{
 		"fieldName" "BuildingStatus_Engineer"
@@ -281,6 +294,10 @@
 		"tall"		"480"
 		
 		"PaintBackgroundType"	"2"
+		
+		"pin_to_sibling"           "BuildingPin"
+        "pin_corner_to_sibling"    "PIN_TOPLEFT"
+        "pin_to_sibling_corner"    "0"
 	}
 	
 	HudMannVsMachineStatus
@@ -369,12 +386,12 @@
 		"fieldName"		"HudDamageIndicator"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"MinimumWidth" 	"12"
-		"MaximumWidth"	"20"
-		"StartRadius"	"100"
-		"EndRadius"		"80"
-		"MinimumHeight"	"30"
-		"MaximumHeight"	"60"
+		"MinimumWidth" 	"6"
+		"MaximumWidth"	"12"
+		"StartRadius"	"80"
+		"EndRadius"		"40"
+		"MinimumHeight"	"20"
+		"MaximumHeight"	"40"
 		"MinimumTime"	"1"
 	}
 
@@ -436,13 +453,13 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"
-		"ypos"	 "7"	
+		"ypos"	 "18"	
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "12"
+		"MaxDeathNotices" "6"
 		"IconScale"	  "0.15"
-		"LineHeight"	  "11"
+		"LineHeight"	  "16"
 		"LineSpacing"	  "1"
 		"CornerRadius"	  "1"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
@@ -973,10 +990,10 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r192"	
-		"ypos"			"r75"
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
 	}	
 
 	HudTeamGoal

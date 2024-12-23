@@ -30,6 +30,20 @@
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 	}
+
+	"TopBackground"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"TopBackground"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"f0"
+		"zpos"		"-90"
+		"tall"		"77"
+		"visible"	"1"
+		"enabled"	"1"
+		"bgcolor_override"	"59 72 109 255"
+	}
 	
 	"BackgroundHeader"
 	{
@@ -73,7 +87,25 @@
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}				
-	
+
+	"TopBGButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"TopBGButton"
+		"xpos"				"19"
+		"ypos"				"22"
+		"zpos"				"-1"
+		"wide"				"158"
+		"tall"				"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"roundedcorners"	"15"
+		"labeltext"		""
+		"mouseinputenabled"	"0"
+		"armedBgColor_override"		"29 37 56 255"
+		"defaultBgColor_override"	"29 37 56 255"
+	}
+
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -83,13 +115,13 @@
 		"tabwidth"		"15"
 		"tabheight"		"28"
 		"transition_time" "0"
-		"yoffset"	"-5"
+		"yoffset"	"7"
 		
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
-			"xpos"			"0"
+			"xpos"			"20"
 			"ypos"			"32"
 			"zpos"			"5"
 			"wide"			"0"

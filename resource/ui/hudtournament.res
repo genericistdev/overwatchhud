@@ -5,8 +5,8 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"				"HudTournament"
 				
-		"xpos"					"c-125"
-		"ypos"					"0"
+		"xpos"					"0"
+		"ypos"					"-5"
 		"wide"					"250"
 		"tall"					"480"
 		"proportionaltoparent"	"1"
@@ -470,7 +470,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"SetupLabela"
-		"font"			"DinBold14"
+		"font"			"Oblique16"
 		"xpos"			"74"
 		"ypos"			"5"
 		"zpos"			"1"
@@ -506,7 +506,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentLabel"
-		"font"			"DinBold10"
+		"font"			"DinBold8"
 		"xpos"			"125"
 		"ypos"			"5"
 		"zpos"			"1"
@@ -1044,7 +1044,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
+		"font"			"Oblique24"
 		"xpos"			"230"
 		"ypos"			"r55"
 		"wide"			"40"
@@ -1064,7 +1064,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.1"
 			"fgcolor"		"TanLight"
-			"font"			"HudFontGiant"
+			"font"			"Oblique24"
 		}
 
 		if_readymode
@@ -1079,7 +1079,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"HudFontGiant"
-		"xpos"			"400"
+		"xpos"			"9999"
 		"ypos"			"r52"
 		"wide"			"40"
 		"tall"			"40"
@@ -1087,7 +1087,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"

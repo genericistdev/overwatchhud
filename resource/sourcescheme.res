@@ -75,7 +75,7 @@ Scheme
 		Border.Bright					"200 200 200 255"	// the lit side of a control
 		Border.Dark						"40 40 40 198"		// the dark/unlit side of a control
 		Border.Selection				"0 0 0 255"			// the additional border color for displaying the default/selected button
-		Border.DarkSolid				"40 40 40 255"
+		Border.DarkSolid				"0 0 0 0"
 		Border.Subtle					"80 80 80 255"
 
 		Button.TextColor				"82 82 82 255"
@@ -91,7 +91,7 @@ Scheme
 		CheckButton.BgColor				"White"
 		CheckButton.Border1  			"Border.Subtle" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Subtle"		// the right checkbutton border
-		CheckButton.Check			"142 204 7 255"	//"118 255 118 255"	// color of the check itself
+		CheckButton.Check				"142 204 7 255"	//"118 255 118 255"	// color of the check itself
 		CheckButton.HighlightFgColor	"OffWhite"
 		CheckButton.ArmedBgColor		"Blank"
 		CheckButton.DepressedBgColor	"Blank"
@@ -105,15 +105,15 @@ Scheme
 		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
-		Frame.BgColor		 "108 111 114 150" 	[$WIN32]  //"20 20 20 150"	//	"20 200 130 170"	//
+		Frame.BgColor		 			"108 111 114 150" 	[$WIN32]  //"20 20 20 150"	//	"20 200 130 170"	//
 		Frame.BgColor					"80 80 80 192"		[$X360]
-		Frame.OutOfFocusBgColor		"60 60 60 150" //	"97 100 102 45"	[$WIN32]
+		Frame.OutOfFocusBgColor			"60 60 60 150" //	"97 100 102 45"	[$WIN32]
 		Frame.OutOfFocusBgColor			"80 80 80 192"		[$X360]
 		Frame.FocusTransitionEffectTime	"0.2"							// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.2"				[$WIN32]	// time it takes for a window to fade in/out on open/close
 		Frame.TransitionEffectTime		"0.2"				[$X360]		// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"5"
-		FrameGrip.Color1		"227 200 95 180"	//"253 87 45 220"//	"100 200 200 150"
+		FrameGrip.Color1				"227 200 95 180"	//"253 87 45 220"//	"100 200 200 150"
 		FrameGrip.Color2				"0 0 0 196"
 		FrameTitleButton.FgColor		"255 255 255 255"
 		FrameTitleButton.BgColor		"Blank"
@@ -124,10 +124,10 @@ Scheme
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
 		FrameTitleBar.Font				"Trebuchet20"	
-		FrameTitleBar.TextColor			"34 34 34 255"
-		FrameTitleBar.BgColor	"192 254 57 190"	//	"0 230 255 180"
+		FrameTitleBar.TextColor			"255 255 255 255"
+		FrameTitleBar.BgColor			"236 101 22  180"	//	"0 230 255 180"
 		FrameTitleBar.DisabledTextColor	"34 34 34 91"
-		FrameTitleBar.DisabledBgColor "192 254 57 100"	// "0 230 255 90"
+		FrameTitleBar.DisabledBgColor 	"236 101 22  180"	// "0 230 255 90"
 
 		GraphPanel.FgColor				"109 12 232 220"//"White"
 		GraphPanel.BgColor				"TransparentBlack"
@@ -142,7 +142,7 @@ Scheme
 
 		ListPanel.TextColor					"White"
 		ListPanel.TextBgColor				"Blank"
-		ListPanel.BgColor		"57 54 54 238"//	"17 21 38 225"//"19 23 42 222" //"9 28 49 222"	// "26 61 68 180"//	"White"
+		ListPanel.BgColor					"57 54 54 238"//	"17 21 38 225"//"19 23 42 222" //"9 28 49 222"	// "26 61 68 180"//	"White"
 		ListPanel.SelectedTextColor			"120 120 120 255"
 		ListPanel.SelectedBgColor			"254 197 50  255"
 		ListPanel.OutOfFocusSelectedTextColor	"Black"
@@ -172,7 +172,7 @@ Scheme
 		PropertySheet.SelectedTextColor	"10 10 10 255"
 		PropertySheet.SelectedBgColor	"10 10 10 255"
 		PropertySheet.TransitionEffectTime	"0.3"	// time to change from one tab to another
-		PropertySheet.BgColor "0 0 0 255"
+		PropertySheet.BgColor 			"0 0 0 255"
 
 		RadioButton.TextColor			"OffWhite"
 		RadioButton.SelectedTextColor	"White"
@@ -196,7 +196,7 @@ Scheme
 
 		ScrollBar.Wide					17
 
-		ScrollBarButton.FgColor			"61 58 57 220"	//"60 60 60 210"
+		ScrollBarButton.FgColor				"61 58 57 220"	//"60 60 60 210"
 		ScrollBarButton.BgColor				"207 207 207 60"
 		ScrollBarButton.ArmedFgColor		"61 58 57 220" //"20 65 72 255"
 		ScrollBarButton.ArmedBgColor		"210 237 255 255"
@@ -229,9 +229,9 @@ Scheme
 		TextEntry.DisabledTextColor	"DullWhite"
 		TextEntry.DisabledBgColor	"192 192 192 255"
 		TextEntry.SelectedTextColor	"10 10 10 255"
-		TextEntry.SelectedBgColor "254 197 50 140"	//"255 0 40 140"	//"0 168 255 204"
+		TextEntry.SelectedBgColor 	"254 197 50 140"	//"255 0 40 140"	//"0 168 255 204"
 		TextEntry.OutOfFocusSelectedBgColor	"254 197 50 30"
-		TextEntry.FocusEdgeColor "255 0 40 255"	// "0 0 0 196"
+		TextEntry.FocusEdgeColor 	"255 0 40 255"	// "0 0 0 196"
 
 		ToggleButton.SelectedTextColor	"White"
 
