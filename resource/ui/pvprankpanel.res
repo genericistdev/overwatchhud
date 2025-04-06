@@ -49,11 +49,11 @@
 		{
 			"ControlName"	"CBaseModelPanel"
 			"fieldName"		"RankModel"
-			"xpos"			"cs-0.5"
+			"xpos"			"250"
 			"ypos"			"cs-0.5"
-			"zpos"			"0"		
-			"wide"			"o1"
-			"tall"			"p0.12"
+			"zpos"			"9999"		
+			"wide"			"90"
+			"tall"			"90"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -166,11 +166,11 @@
 		{
 			"ControlName"	"Button"
 			"fieldName"		"MedalButton"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5+2"
-			"zpos"			"100"
-			"wide"			"o1"
-			"tall"			"42"
+			"xpos"			"250"
+			"ypos"			"cs-0.5"
+			"zpos"			"9999"		
+			"wide"			"90"
+			"tall"			"90"
 			"proportionaltoparent"	"1"
 			"command"	"medal_clicked"
 			"actionsignallevel"	"2"
@@ -189,39 +189,40 @@
 		"ypos"			"20"
 		"zpos"			"-1"
 		"wide"			"260"
-		"tall"			"f40"
+		"tall"			"90"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
 
-		if_mini
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"tall"			"35"
-			"wide"			"505"
-		}
+
 
 		"NameLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"65"
+			"xpos"			"0"
 			"ypos"			"5"
-			"wide"			"f0"
+			"wide"			"190"
 			"zpos"			"100"
-			"tall"			"20"
+			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"DinBold12"
+			"font"			"Oblique36"
 			"fgcolor_override"	"TanLight"
+			"wrap"			"0"
 			"textAlignment"	"north-west"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
-				"visible"	"0"
+				"visible"		"1"
+				"tall"			"30"
+				"font"			"DinBold12"
+				"xpos"			"65"
+				"ypos"			"5"
+				"wide"			"85"
+				"zpos"			"100"
 			}
 		}
 
@@ -229,8 +230,8 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"65"
-			"ypos"			"10"
+			"xpos"			"0"
+			"ypos"			"30"
 			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
@@ -241,43 +242,57 @@
 			"textAlignment"	"north-west"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
+			
+			if_mini
+			{
+				"visible"	"0"
+				"enabled"	"0"
+				"labelText"	""
+			}
+			
 		}
 
 		"DescLine2"
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"65"
-			"ypos"			"16"
+			"xpos"			"1"
+			"ypos"			"38"
 			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"DinBold8"
-			"fgcolor_override"	"TanLight"
+			"font"			"DinBold14"
+			"fgcolor_override"	"owTEAL"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
+			
+			if_mini
+			{
+				"visible"		"0"
+				"enabled"		"0"
+				
+			}			
+			
 		}
 
 		"StatsContainer"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"60"
-			"ypos"			"-18"
-			"wide"			"120"
+			"xpos"			"0"
+			"ypos"			"-20"
+			"wide"			"99"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
-				"xpos"			"rs1-10"
-				"ypos"			"0"
-				"wide"			"p0.85"
+				"visible"		"0"
 			}
-
+	
 			"XPBar"
 			{
 				"Controlname"	"EditablePanel"
@@ -379,6 +394,12 @@
 						"border"		"noborder"
 					}
 				}
+				
+				if_mini
+				{
+					"visible"	"0"
+				}
+			
 			}
 
 			"Stats"
@@ -541,6 +562,13 @@
 					"labelText"		"%stat_score%"
 					"proportionaltoparent"	"1"
 				}
+				
+				if_mini
+				{
+					"visible"	"0"
+				}
+				
+				
 			}
 		}
 	}

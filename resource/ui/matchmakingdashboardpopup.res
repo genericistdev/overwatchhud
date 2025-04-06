@@ -463,6 +463,8 @@
 				"image"			"animated/tf2_logo_hourglass"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
+				
+				"fgcolor_override"	"owORANGE"
 			}
 
 			"LeaderContainer"

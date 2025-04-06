@@ -1,32 +1,27 @@
 "Resource/UI/GlobalChat.res"
 {
-	"ChatPin"
-	{
-		"ControlName"    "Panel"
-		"xpos"			 "80"
-		"ypos"			 "90"
-	}
+
 	"partychat"
 	{
 		"fieldName"				"partychat"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"10"
+		"ypos"					"0"
 		"zpos"					"1001"
-		"wide"					"160"
+		"wide"					"175"
 		"tall"					"200"
 		"proportionaltoparent"	"1"
 		"keyboardinputenabled"	"1"
 		"mouseinputenabled"		"1"
-		"border"		"QuickplayBorder"
+		"border"		""
 
 		"log_font_small"			"HudFontSmallest"
 		"log_font_medium"			"HudFontSmallest"
 		"log_font_large"			"HudFontSmallest"
 
 		"chat_color_default"		"255 255 255 255"
-		"chat_color_player_name"	"255 255 0 255"
+		"chat_color_player_name"	"0 218 0 255"
 		"chat_color_chat_text"		"255 255 255 255"
 		"chat_color_party_event"	"Orange"
 
@@ -35,9 +30,9 @@
 		"resize_time"	"0.3"
 		"invalidate_parent_on_resize"	"0"
 		
-		"pin_to_sibling"    "ChatPin"
+		"pin_to_sibling"   		   "ChatPin"
+
 	}
-	
 	
 	"chatlog"
 	{
@@ -52,8 +47,8 @@
 		"proportionaltoparent"	"1"
 		"RoundedCorners"	"0"
 		"font"			"HudFontSmallest"
-		
-		"bgcolor_override"	"0 0 0 50"
+
+		"bgcolor_override"	"47 56 70 200"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
@@ -89,26 +84,34 @@
 			}
 		}
 	}
-
+	"ChatPin2"
+	{
+    	"ControlName"    "Panel"
+		"xpos"			 "0"
+		"ypos"			 "185"
+	}
 	"chatentry"
 	{
 		// "ControlName"	"TextEntry"
 		"fieldName"		"chatentry"
-		"xpos"					"1"
-		"ypos"					"rs1+19"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"			"1"
-		"wide"			"f2"
+		"wide"			"f0"
 		"tall"			"13"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 255"
-		"RoundedCorners"	"0"
+		"bgcolor_override"	"0 0 0 175" //47 56 70 200
+		"RoundedCorners"	"12"
 		"font"			"HudFontSmallest"
 		"alpha"			"0"
 		"mouseinputenabled"	"0"
 
 		"pinCorner"		"2"
 		//"autoResize"	"1"
+		
+		"pin_to_sibling"	"ChatPin2"
+
 	}
 
 	"EntryShadow"
@@ -124,7 +127,7 @@
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
 		"RoundedCorners"	"0"
-		"border"		"QuickplayBorder"
+		"border"		""
 
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"0"

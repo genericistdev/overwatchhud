@@ -148,8 +148,8 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"c-82"
-			"ypos"					"45"
+			"xpos"					"150"
+			"ypos"					"14"
 			"font"					"HudFontSmallestBold"
 		}
 	}			

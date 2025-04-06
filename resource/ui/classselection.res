@@ -566,10 +566,10 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"c-47"
-		"ypos"			"r54"
+		"ypos"			"r45"
 		"zpos"			"6"
 		"wide"			"100"
-		"tall"			"48"
+		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -605,6 +605,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
+	
 	"ResetButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"

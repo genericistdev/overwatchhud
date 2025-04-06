@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExpandablePanel"
 		"fieldName"		"NewMatchFound"
-		"xpos"			"cs-0.5"
+		"xpos"			"c-100"
 		"ypos"			"0"
 		"zpos"			"9999"
 		"wide"			"200"
@@ -17,7 +17,6 @@
 		"collapsed_height"	"0"
 		"expanded_height"	"60"
 
-		"pinCorner"		"2"
 		"autoResize"	"1"
 
 		"OuterShadow"
@@ -237,7 +236,7 @@
 
 				"radius"		"10"
 				"velocity"		"250"
-				"fgcolor_override"	"Orange"
+				"fgcolor_override"	"owORANGE"
 			}
 		}
 	}

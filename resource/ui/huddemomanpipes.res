@@ -5,34 +5,35 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
-		"xpos"					"0"
-		"ypos"					"30"
+		"xpos"					"r252"
+		"ypos"					"r35"
 		"zpos"					"2"
-		"wide"					"41"
-		"tall"					"15"
+		"wide"					"50"
+		"tall"					"10"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"SHIELD"
-		"textAlignment"			"west"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"DinBold8"
 		"fgcolor_override"		"owwhite"
 	}
 
+
 	"ChargeMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
-		"xpos"					"25"
-		"ypos"					"37"
+		"xpos"					"r242"
+		"ypos"					"r65"
 		"zpos"					"2"
-		"wide"					"50"
-		"tall"					"2"				
+		"wide"					"28"
+		"tall"					"30"			
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -48,34 +49,89 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"35"
-		"ypos"			"15"
-		"zpos"			"1"
-		"wide"			"37"
-		"tall"			"37"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		
+		"PanelIcon"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"PipeIcon"
+			"xpos"			"r203"
+			"ypos"			"r65"
+			"zpos"			"9999"
+			"wide"			"28"
+			"tall"			"30"
+			"labelText"		"4"
+			"visible"		"0"
+			"enabled"		"0"
+			"scaleImage"	"1"
+			"font"					"Hudas28"
+			"fgcolor_override"		"black"
+		}
+
+		"PanelBackground"
+		{
+			"ControlName"	"EditablePanel"
+			"xpos"			"r207"
+			"ypos"			"r65"
+			"zpos"			"-3"
+			"wide"			"28"
+			"tall"			"30"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"		"owwhite"
+		}	
+
+
+
+		"BombLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"ChargeLabel"
+			"xpos"			"r210"
+			"ypos"			"r38"
+			"zpos"			"2"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"			"1"
+			"pinCorner"				"2"
+			"visible"				"1"
+			"enabled"				"1"
+			"tabPosition"			"0"
+			"labelText"				"BOMBS"
+			"textAlignment"			"center"
+			"dulltext"				"0"
+			"brighttext"			"0"
+			"font"					"DinBold8"
+			"fgcolor_override"		"owwhite"
+		}
+
+		
+	
 		"PipeIcon"
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"PipeIcon"
-			"xpos"			"2"
+			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"0"
-			"tall"			"0"
+			"zpos"			"1"
+			"wide"			"30"
+			"tall"			"30"
 			"visible"		"0"
 			"enabled"		"0"
 			"image"			"replay/thumbnails/stickies"
 			"scaleImage"	"1"
-		}	
-		
+		}
+
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"-2"
-			"ypos"			"-2"
+			"xpos"			"r211"
+			"ypos"			"r85"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
@@ -90,12 +146,13 @@
 			"brighttext"	"0"
 			"font"			"DinBold16"
 		}
+
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"-2"
-			"ypos"			"-2"
+			"xpos"			"r211"
+			"ypos"			"r85"
 			"zpos"			"1"
 			"wide"			"35"
 			"tall"			"20"
@@ -117,13 +174,49 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoPipesPresentPanel"
-		"xpos"			"35"
-		"ypos"			"15"
-		"zpos"			"1"
-		"wide"			"37"
-		"tall"			"37"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		
+
+		"PanelIcon"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"PipeIcon"
+			"xpos"			"r203"
+			"ypos"			"r65"
+			"zpos"			"9999"
+			"wide"			"28"
+			"tall"			"30"
+			"labelText"		"4"
+			"visible"		"0"
+			"enabled"		"0"
+			"scaleImage"	"1"
+			"font"					"Hudas28"
+			"fgcolor_override"		"black"
+		}
+
+		"PanelBackground"
+		{
+			"ControlName"	"EditablePanel"
+			"xpos"			"r207"
+			"ypos"			"r65"
+			"zpos"			"-3"
+			"wide"			"28"
+			"tall"			"30"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"		"owwhite"
+		}
+
+
+
+
+
+
+
 		"PipeIcon"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -133,54 +226,75 @@
 			"zpos"			"0"
 			"wide"			"0"
 			"tall"			"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"replay/thumbnails/stickies"
 			"scaleImage"	"1"
 		}	
+
+		"BombLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"ChargeLabel"
+			"xpos"			"r210"
+			"ypos"			"r38"
+			"zpos"			"2"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"			"1"
+			"pinCorner"				"2"
+			"visible"				"1"
+			"enabled"				"1"
+			"tabPosition"			"0"
+			"labelText"				"BOMBS"
+			"textAlignment"			"center"
+			"dulltext"				"0"
+			"brighttext"			"0"
+			"font"					"DinBold8"
+			"fgcolor_override"		"owwhite"
+		}
 
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"50"
-			"ypos"			"18"
-			"zpos"			"2"
+			"xpos"			"r211"
+			"ypos"			"r85"
+			"zpos"			"1"
 			"wide"			"35"
 			"tall"			"20"
-			"tall_lodef"	"28"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"%activepipes%"
-			"textAlignment"	"west"
+			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"HudFontMedium"
+			"font"			"DinBold16"
 		}
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"51"
-			"ypos"			"19"
-			"zpos"			"2"
-			"wide"			"0"
-			"tall"			"0"
-			"tall_lodef"	"28"
+			"xpos"			"r211"
+			"ypos"			"r85"
+			"zpos"			"1"
+			"wide"			"35"
+			"tall"			"20"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"%activepipes%"
-			"textAlignment"	"west"
+			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"HudFontMedium"
-			"fgcolor"		"black"
-		}			
+			"font"			"DinBoldBlur16"
+			"fgcolor"		"owwhitet"
+		}
+
 	}				
 }

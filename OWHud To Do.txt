@@ -1,0 +1,52 @@
+BUGS:
+
+- MOTD Doesn't work in menus (only after leaving match)
+
+- Class select doesn't allow cancel when first joining
+
+- Ubercharge percentage in targetID not showing
+
+- Overtime label getting cut off
+
+
+
+
+FIXES:
+
+Main Menu
+- Replace main menu pictures with font/words buttons
+- Custom main menu play match bottom banner to reflect OW2 colors
+- Remove dashboard dimmer
+- Class Gallery positioning and icons, removing tip of the hats
+- Queued matchmaking dashboard improperly positioned
+- Contracts button in main menu and secondary menu
+
+Stats Page
+- Clickable rank medal
+- Button clickable to cycle medal
+- Casual lifetime stats 
+- Repositioning
+
+In-game UI
+- Custom Weapon held UI elements
+- Bottom corners of screen accents in-game flair
+- Upper and lower wings more accurate redo
+- Class Select bar redo
+- "Join Voice Chat" Button Toggle on Class Select Screen
+- Custom TargetID when healed via medic (+gif)
+- Class Select shows only red side team (blue doesn't exist afaik)
+
+
+
+Loading Screen
+- Remove VGUI element(?)
+
+
+BONUS:
+- Health Bar (?)
+- Alternate in-game HUD color options/menu
+- Secret Easter Egg
+- Min-mode Edits
+- 4:3 full support
+- Potato.tf OPERATION Name/event at top of main menu (In Orange + flair)
+- Customization Panel

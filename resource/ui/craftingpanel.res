@@ -160,7 +160,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Oblique18"
 		"labelText"		"#CraftStep1"
 		"textAlignment"	"north-west"
 		"xpos"			"c-290"
@@ -191,7 +191,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecipeTitle"
-			"font"			"HudFontSmallBold"
+			"font"			"Oblique16"
 			"labelText"		"%recipetitle%"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -346,7 +346,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"recipecontainerscroller"
 		"xpos"			"c-290"
-		"ypos"			"70"
+		"ypos"			"95"
 		"zpos"			"5"
 		"wide"			"280"
 		"tall"			"240"
