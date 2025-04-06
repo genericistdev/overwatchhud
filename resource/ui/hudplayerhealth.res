@@ -17,7 +17,78 @@
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
-
+	
+	//replace with more accurate
+	"healthbar"
+	{
+		"ControlName"            "CBuildingHealthBar"
+		"visible"				  "1"
+		"enabled"				  "1"
+		"xpos"                    "87"
+		"ypos"                    "r54"
+		"zpos"                    "1"
+		"wide"                    "105"
+		"tall"                    "15"
+		"variable"                "health"
+		"fgcolor_override"		  "owFULLWHITE"
+	}
+	
+	"HealthBarBackground" 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"HealthBarBackground"
+		"font"			"DinBold18"
+		"fgcolor"		"owteal"
+		"bgcolor_override"	"0 0 0 100"
+		"xpos"			"87"
+		"xpos_minmode"	"9999"
+		"ypos"			"r54"
+		"ypos_minmode"	"r155"
+		"labelText"		""
+		"zpos"			"0"
+		"wide"			"104"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"wrap"			"1"
+		"roundedcorners"	"15"
+	}
+		
+		
+	"wingtop"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"wingtop"
+		"xpos"			"r172"
+		"xpos_minmode"	"9999"
+		"ypos"			"r67"
+		"ypos_minmode"	"9999"
+		"zpos"			"1"
+		"wide"			"140"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/wingtop1"
+		"scaleImage"	"1"
+	}
+	"wingbottom"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"wingbottom"
+		"xpos"			"r172"
+		"xpos_minmode"	"9999"
+		"ypos"			"r37"
+		"ypos_minmode"	"9999"
+		"zpos"			"1"
+		"wide"			"140"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/wingbottom"
+		"scaleImage"	"1"
+	}
+	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -84,13 +155,16 @@
         "image"         "replay/thumbnails/ow_overheal"
         "alpha"         "0"
     }
+	
+
+	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"58"
 		"xpos_minmode"	"c-180"
-		"ypos"			"r70"	
+		"ypos"			"r84"	
 		"ypos_minmode"	"r150"
 		"zpos"			"5"
 		"wide"			"100"
@@ -109,7 +183,7 @@
 		"fieldName"		"PlayerStatusHealthValue2"
 		"xpos"			"58"
 		"xpos_minmode"	"c-180"
-		"ypos"			"r70"	
+		"ypos"			"r84"	
 		"ypos_minmode"	"r150"
 		"zpos"			"5"
 		"wide"			"100"
@@ -129,7 +203,7 @@
 		"fieldName"		"SlashFinal"
 		"xpos"			"136"
 		"xpos_minmode"	"9999"
-		"ypos"			"r58"
+		"ypos"			"r72"
 		"wide"			"1"
 		"tall"			"16"
 		"fillcolor"		"owteal"
@@ -139,7 +213,6 @@
 		"enabled"		"1"
 	}
 	
-
 	"PlayerNameUnderline" // name underline
 	{
 		"ControlName"	"CExLabel"
@@ -744,4 +817,5 @@
 		"image"			"../Effects/powerup_supernova_hud"
 		"fgcolor"		"TanDark"
 	}	
+	
 }
