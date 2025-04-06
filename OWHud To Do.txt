@@ -4,12 +4,9 @@ BUGS:
 
 - Class select doesn't allow cancel when first joining
 
-- Ubercharge percentage in targetID not showing
-
 - Overtime label getting cut off
 
-
-
+- Spy Health/Class/Name while disguised is overlapping
 
 FIXES:
 
@@ -36,14 +33,10 @@ In-game UI
 - Custom TargetID when healed via medic (+gif)
 - Class Select shows only red side team (blue doesn't exist afaik)
 
-
-
 Loading Screen
 - Remove VGUI element(?)
 
-
 BONUS:
-- Health Bar (?)
 - Alternate in-game HUD color options/menu
 - Secret Easter Egg
 - Min-mode Edits

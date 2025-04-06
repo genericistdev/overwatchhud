@@ -36,38 +36,7 @@
 		"teambg_3"		"../hud/ammo_blue_bg"
 		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
 	}
-	"wingtop"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"wingtop"
-		"xpos"			"62f"
-		"xpos_minmode"	"9999"
-		"ypos"			"r67"
-		"ypos_minmode"	"9999"
-		"zpos"			"1"
-		"wide"			"140"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/wingtop1"
-		"scaleImage"	"1"
-	}
-	"wingbottom"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"wingbottom"
-		"xpos"			"62"
-		"xpos_minmode"	"9999"
-		"ypos"			"r37"
-		"ypos_minmode"	"9999"
-		"zpos"			"1"
-		"wide"			"140"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/wingbottom"
-		"scaleImage"	"1"
-	}
+
 	"AmmoInClipReal"
 	{
 		"ControlName"	"CExLabel"
