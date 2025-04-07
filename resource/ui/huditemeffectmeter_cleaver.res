@@ -90,5 +90,5 @@
 			"scaleImage"	"1"
 			"font"					"Hudas30"
 			"fgcolor_override"		"black"
-		}	
+		}			
 }

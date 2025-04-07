@@ -2,11 +2,7 @@ BUGS:
 
 - MOTD Doesn't work in menus (only after leaving match)
 
-- Class select doesn't allow cancel when first joining
-
 - Overtime label getting cut off
-
-- Spy Health/Class/Name while disguised is overlapping
 
 FIXES:
 
@@ -15,8 +11,6 @@ Main Menu
 - Custom main menu play match bottom banner to reflect OW2 colors
 - Remove dashboard dimmer
 - Class Gallery positioning and icons, removing tip of the hats
-- Queued matchmaking dashboard improperly positioned
-- Contracts button in main menu and secondary menu
 
 Stats Page
 - Clickable rank medal
@@ -30,15 +24,15 @@ In-game UI
 - Upper and lower wings more accurate redo
 - Class Select bar redo
 - "Join Voice Chat" Button Toggle on Class Select Screen
-- Custom TargetID when healed via medic (+gif)
+
 - Class Select shows only red side team (blue doesn't exist afaik)
 
 Loading Screen
 - Remove VGUI element(?)
 
 BONUS:
+- Custom TargetID when healed via medic (+gif)
 - Alternate in-game HUD color options/menu
-- Secret Easter Egg
 - Min-mode Edits
 - 4:3 full support
 - Potato.tf OPERATION Name/event at top of main menu (In Orange + flair)

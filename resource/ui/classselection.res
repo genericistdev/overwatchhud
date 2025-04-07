@@ -579,9 +579,11 @@
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
 		"font"			"DinBold16"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 		
 		"FgColor"		"owwhite"
+		"border"		"owbutton"
+		"defaultBgColor_override"	"owOrange"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -600,8 +602,8 @@
 		"pinCorner"		"0"
 		"border"		"owbutton"
 		"border_armed"	"owbuttonsel"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			""
 		"scaleImage"	"1"
 	}

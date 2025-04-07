@@ -63,7 +63,7 @@
 		"fieldName"		"AmmoInClipShadowReal"
 		"font"			"DinBoldBlur24"
 		"font_minmode"	"DinBoldBlur52"
-		"fgcolor"		"255 255 255 125"
+		"fgcolor"		"10 10 10 255"
 		"xpos"			"-5"
 		"xpos_minmode"	"c-35"
 		"ypos"			"r74"
@@ -102,7 +102,7 @@
 		"fieldName"		"AmmoInClip"
 		"font"			"DinBoldBlur24"
 		"font_minmode"	"DinBoldBlur32"
-		"fgcolor"		"255 255 255 125"
+		"fgcolor"		"10 10 10 255"
 		"xpos"			"165"
 		"xpos_minmode"	"c135"
 		"ypos"			"r74"
@@ -188,7 +188,7 @@
 		"zpos"			"7"
 		"wide"			"40"
 		"tall"			"50"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"textAlignment"	"south-east"		
@@ -201,7 +201,7 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"DinBoldBlur24"
 		"font_minmode"	"DinBoldBlur32"
-		"fgcolor"		"255 255 255 125"
+		"fgcolor"		"10 10 10 255"
 		"xpos"			"165"
 		"xpos_minmode"	"c135"
 		"ypos"			"r74"
@@ -214,6 +214,5 @@
 		"textAlignment"	"west"	
 		"textAlignment"	"south-east"		
 		"labelText"		"0"
-		
 	}									
 }

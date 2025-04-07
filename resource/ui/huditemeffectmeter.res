@@ -70,6 +70,22 @@
 		"bgcolor_override"		"0 0 0 100"
 		"fgcolor_override"		"owwhite"
 	}
-
-				
+	
+		"PanelIcon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"HypeIcon"
+			"xpos"			"r203"
+			"ypos"			"r60"
+			"zpos"			"9999"
+			"wide"			"20"
+			"tall"			"20"
+			"labelText"		""
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_multiplayer"
+			"font"					"Hudas30"
+			"drawcolor_override"		"black"
+		}	
 }

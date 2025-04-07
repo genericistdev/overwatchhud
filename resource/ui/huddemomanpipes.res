@@ -44,7 +44,43 @@
 		"fgcolor_override"		"owwhite"
 		"bgcolor_override"		"0 0 0 100"
 	}				
-		
+	"PanelIcon"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PanelIcon"
+		"xpos"			"r204"
+		"ypos"			"r65"
+		"zpos"			"9999"
+		"wide"			"35"
+		"tall"			"29"
+		"labelText"		"4"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"font"					"Hudas30"
+		"fgcolor_override"		"black"
+	}		
+	
+	"Background"
+	{	
+		"ControlName"			"Panel"
+		"fieldName"				"Background"
+		"font"					"Default"
+		"xpos"					"r204"
+		"ypos"					"r65"
+		"zpos"					"2"
+		"wide"					"28"
+		"tall"					"30"			
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"Left"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"fgcolor_override"		"owwhite"
+	}			
+	
 	"PipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -108,9 +144,7 @@
 			"font"					"DinBold8"
 			"fgcolor_override"		"owwhite"
 		}
-
 		
-	
 		"PipeIcon"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -166,7 +200,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"DinBoldBlur16"
-			"fgcolor"		"owwhitet"
+			"fgcolor"		"10 10 10 255"
 		}		
 	}
 	
@@ -210,12 +244,6 @@
 			"enabled"		"1"
 			"bgcolor_override"		"owwhite"
 		}
-
-
-
-
-
-
 
 		"PipeIcon"
 		{
@@ -293,7 +321,7 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"DinBoldBlur16"
-			"fgcolor"		"owwhitet"
+			"fgcolor"		"10 10 10 255"
 		}
 
 	}				

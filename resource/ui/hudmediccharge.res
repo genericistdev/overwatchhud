@@ -202,12 +202,25 @@
 		"fieldName"		"ResistIcon"
 		"xpos"			"0"
 		"ypos"			"-25"
-		"wide"			"16"
-		"tall"			"16"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"scaleImage"	"1"	
+		
+		"pin_to_sibling" "Anchor"
+		"pin_to_sibling_corner" "3"
+	}
+	
+	
+	"Anchor"
+	{	
+		"ControlName" "Panel"
+		"xpos" "62"
+		"ypos" "55"
+		"wide" "0"
+		"tall" "0"
 	}
 	
 }

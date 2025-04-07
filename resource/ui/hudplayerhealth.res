@@ -194,7 +194,7 @@
 		"textAlignment"	"center"	
 		"font"			"DinBoldBlur28"
 		"font_minmode"	"DinBoldBlur52"
-		"fgcolor"		"255 255 255 125"
+		"fgcolor"		"10 10 10 255"
 	}	
 	
 	"SlashHealth"

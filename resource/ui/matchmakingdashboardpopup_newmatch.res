@@ -1,5 +1,12 @@
 "Resource/UI/MatchMakingDashboardPopup_NewMatch.res"
 {
+	"NewMatchFoundPin"
+	{
+		"ControlName"    "Panel"
+		"ypos"			 "8"
+		"xpos"			"66"
+	}
+	
 	"NewMatchFound"
 	{
 		"ControlName"	"CExpandablePanel"
@@ -18,6 +25,9 @@
 		"expanded_height"	"60"
 
 		"autoResize"	"1"
+		
+		"pin_to_sibling"    "NewMatchFoundPin"
+		"pinCorner"		"2"
 
 		"OuterShadow"
 		{
