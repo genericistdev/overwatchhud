@@ -110,7 +110,7 @@
 		"fgcolor_override"		"owfullwhite"
 		"fgcolor"		"owfullwhite"
 		"xpos"			"43"
-		"ypos"			"11"
+		"ypos"			"14"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"13"
