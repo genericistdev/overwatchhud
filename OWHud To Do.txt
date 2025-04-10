@@ -1,15 +1,12 @@
-BUGS:
-
-- MOTD Doesn't work in menus (only after leaving match)
-
-- Overtime label getting cut off
-
 FIXES:
 
-Main Menu
-- Replace main menu pictures with font/words buttons
-- Custom main menu play match bottom banner to reflect OW2 colors
+Main Menu (Shipable)
 - Remove dashboard dimmer
+- Replace main menu pictures with font/words buttons
+[-] Custom main menu play match bottom banner to reflect OW2 colors
+
+Loadout Screen
+- Reorganize
 - Class Gallery positioning and icons, removing tip of the hats
 
 Stats Page
@@ -17,6 +14,9 @@ Stats Page
 - Button clickable to cycle medal
 - Casual lifetime stats 
 - Repositioning
+
+Customize Page
+- 
 
 In-game UI
 - Custom Weapon held UI elements
@@ -27,8 +27,6 @@ In-game UI
 
 - Class Select shows only red side team (blue doesn't exist afaik)
 
-Loading Screen
-- Remove VGUI element(?)
 
 BONUS:
 - Custom TargetID when healed via medic (+gif)

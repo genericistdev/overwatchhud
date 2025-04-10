@@ -90,7 +90,7 @@
 		"ypos"			"0"
 		"zpos"			"6"
 		"wide"			"135"
-		"tall"			"50"
+		"tall"			"74"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%button_token%"
@@ -112,9 +112,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override"	"0 0 0 255"
-		"armedFgColor_override"		"255 255 255 255"
-		"depressedFgColor_override" "TanLight"
+		"defaultFgColor_override"	"0 0 0 255" //changes default text color
+		"armedFgColor_override"		"255 255 255 255"	//changes hover text color
+		"depressedFgColor_override" "OwOrange" //changes depressed text color
 	}	
 
 	"MatchmakingBanPanel"
@@ -184,17 +184,18 @@
 		"font"			"MMenuPlayListDesc"
 		"labelText"		"%desc_token%"
 		"textAlignment"	"north-west"
-		"xpos"			"rs1+1"
+		"xpos"			"0"
 		"ypos"			"19"
-		"zpos"			"1"
-		"wide"			"125"
+		"zpos"			"7"
+		"wide"			"f0"
 		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "Black"
+		"fgcolor_override" "0 0 0 255"
+		"defaultFgColor_override"	"0 0 0 255"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
 	}
